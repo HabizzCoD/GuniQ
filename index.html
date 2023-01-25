@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>Bootstrap demo</title>
+
+    <!-- css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+
+    <!-- fonts -->
+    <link
+      rel="stylesheet"
+      href="assets/css/style.css"
+    />
+
+    <!-- about -->
+    <link
+      rel="stylesheet"
+      href="assets/css/about.css"
+    />
+
+    <!-- project -->
+    <link
+      rel="stylesheet"
+      href="assets/css/project.css"
+    />
+
+    <!-- information -->
+    <link
+      rel="stylesheet"
+      href="assets/css/info.css"
+    />
+
+    <!-- aos -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/aos@next/dist/aos.css"
+    />
+  </head>
+  <body>
+    <!-- Start -->
+
+    <!-- navbar start -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container my-2">
+          <a
+            class="navbar-brand fs-4 fw-semibold"
+            href="#"
+            >GuniQ</a
+          >
+          <button
+            class="navbar-toggler collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="toggler-icon top-bar"></span>
+            <span class="toggler-icon middle-bar"></span>
+            <span class="toggler-icon bottom-bar"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ms-auto mb-2 me-4 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#services"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#pricing"
+                  >Pricing</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#blogs"
+                  >Blogs</a
+                >
+              </li>
+            </ul>
+
+            <div class="row">
+              <div class="col navButton">
+                <a
+                  href="#"
+                  class="btn btn-success d-flex justify-content-center"
+                  role="button"
+                  >Sign In</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- navbar end -->
+
+    <main>
+      <!-- home start -->
+      <section id="home">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <h1 class="fw-bold text-white">Selamat Datang di Website GuniQ</h1>
+              <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus maiores praesentium sequi harum eius quos, numquam magni unde temporibus inventore!</p>
+
+              <div class="d-flex">
+                <a
+                  href="#about"
+                  class="nav-link text-white"
+                  >Get Started</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="wave mt-5">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 320"
+          >
+            <path
+              fill="#a5d227"
+              fill-opacity="1"
+              d="M0,256L1440,32L1440,320L0,320Z"
+            ></path>
+          </svg>
+        </div>
+      </section>
+      <!-- home end -->
+
+      <!-- about start -->
+      <section
+        id="about"
+        style="background: #a5d227"
+      >
+        <div class="container">
+          <div class="row row-cols-1 row-cols-lg-3 g-4">
+            <div
+              class="col"
+              data-aos="zoom-in"
+              data-aos-duration="400"
+            >
+              <div class="row text-white">
+                <div class="col-sm-2">
+                  <i class="bi bi-broadcast-pin fs-1"></i>
+                </div>
+                <div class="col-sm-10">
+                  <h3 class="fw-semibold">Beatae</h3>
+                  <p>Distinctio nobis doloremque, consequuntur qui molestias nam.</p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col"
+              data-aos="zoom-in"
+              data-aos-duration="800"
+            >
+              <div class="row text-white">
+                <div class="col-sm-2">
+                  <i class="bi bi-bug fs-1"></i>
+                </div>
+                <div class="col-sm-10">
+                  <h3 class="fw-semibold">Similique</h3>
+                  <p>Distinctio nobis doloremque, consequuntur qui molestias nam.</p>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
+              <div class="row text-white">
+                <div class="col-sm-2">
+                  <i class="bi bi-clock-history fs-1"></i>
+                </div>
+                <div class="col-sm-10">
+                  <h3 class="fw-semibold">Impedit</h3>
+                  <p>Distinctio nobis doloremque, consequuntur qui molestias nam.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about end -->
+
+      <!-- services start -->
+      <section id="services">
+        <div class="wave">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 320"
+          >
+            <path
+              fill="#a5d227"
+              fill-opacity="1"
+              d="M0,256L1440,32L1440,0L0,0Z"
+            ></path>
+          </svg>
+        </div>
+        <div class="container mt-5">
+          <div class="row row-cols-1 row-cols-lg-2 g-4 justify-content-between text-white">
+            <div class="col">
+              <div class="cars1 d-flex justify-content-start">
+                <img
+                  src="https://source.unsplash.com/400x300?carrer"
+                  class="card-img ima1"
+                  alt="..."
+                  data-aos-duration="200"
+                  data-aos="zoom-in"
+                  style="width: 38%"
+                />
+              </div>
+
+              <div class="cars2 d-flex justify-content-end">
+                <img
+                  src="https://source.unsplash.com/400x300?designer"
+                  class="card-img ima2"
+                  alt="..."
+                  data-aos-duration="600"
+                  data-aos="zoom-in"
+                  style="width: 50%"
+                />
+              </div>
+
+              <div class="cars3 d-flex justify-content-start">
+                <img
+                  src="https://source.unsplash.com/400x300?profile"
+                  class="card-img ms-3 ima3"
+                  alt="..."
+                  data-aos-duration="1000"
+                  data-aos="zoom-in"
+                  style="width: 30%"
+                />
+              </div>
+            </div>
+
+            <div
+              class="col"
+              data-aos="zoom-in"
+              data-aos-duration="800"
+            >
+              <h2 class="fw-semibold pb-2">Excepturi totam. Quidem maiores ab sequi, quisquam deleniti soluta</h2>
+              <p class="text-muted jus">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ab, consequatur ea totam officiis mollitia optio culpa eos cum eaque reprehenderit veritatis consequuntur dolorum omnis ipsam voluptatibus ipsa unde rerum
+                voluptatem debitis placeat atque sit quisquam perferendis. Soluta nam itaque unde incidunt praesentium. Commodi obcaecati aliquid vitae voluptas a officiis?
+              </p>
+
+              <div class="row row-cols-1 row-cols-sm-2 g-4 mt-3">
+                <div class="col">
+                  <h5><i class="bi bi-1-square pe-1 textsec"></i> Architecto consequatur</h5>
+                </div>
+                <div class="col">
+                  <h5><i class="bi bi-2-square pe-1 textsec"></i> Perferendis recusandae</h5>
+                </div>
+                <div class="col">
+                  <h5><i class="bi bi-3-square pe-1 textsec"></i> Corporis dolorum</h5>
+                </div>
+                <div class="col">
+                  <h5><i class="bi bi-4-square pe-1 textsec"></i> Blanditiis nihil</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="wave">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 320"
+          >
+            <path
+              fill="#a5d227"
+              fill-opacity="1"
+              d="M0,256L1440,32L1440,320L0,320Z"
+            ></path>
+          </svg>
+        </div>
+      </section>
+      <!-- services end -->
+
+      <!-- pricing start -->
+      <section
+        id="pricing"
+        class="ftco-section pb-5"
+      >
+        <div class="container">
+          <div class="row justify-content-center pb-5 mb-3">
+            <div class="row justify-content-center text-center mt-5">
+              <div
+                class="col-xl-5 col-lg-8"
+                data-aos="fade-down"
+                data-aos-duration="1000"
+              >
+                <h3 class="fw-bold text-white">Tempora similique magnam</h3>
+                <p class="text-light">Provident explicabo animi reiciendis corrupti quas ipsa asperiores ex illo, eos placeat excepturi!</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div
+              class="col-md-4 ftco-animate fadeInUp ftco-animated"
+              data-aos="zoom-in"
+              data-aos-duration="200"
+            >
+              <div class="block-7">
+                <div class="text-center p-4">
+                  <span class="excerpt d-block">Personal</span>
+                  <span class="price"><sup>$</sup> <span class="number">49</span> <sub>/mos</sub></span>
+                  <ul class="pricing-text mb-5">
+                    <li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
+                    <li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
+                    <li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
+                    <li><span class="fa fa-check mr-2"></span>Free Supports</li>
+                  </ul>
+                  <a
+                    href="#"
+                    class="btn btn-success d-block px-2 py-3"
+                    >Get Started</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-4 ftco-animate fadeInUp ftco-animated"
+              data-aos="zoom-in"
+              data-aos-duration="600"
+            >
+              <div class="block-7">
+                <div class="text-center p-4">
+                  <span class="excerpt d-block">Business</span>
+                  <span class="price"><sup>$</sup> <span class="number">79</span> <sub>/mos</sub></span>
+                  <ul class="pricing-text mb-5">
+                    <li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
+                    <li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
+                    <li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
+                    <li><span class="fa fa-check mr-2"></span>Free Supports</li>
+                  </ul>
+                  <a
+                    href="#"
+                    class="btn btn-success d-block px-2 py-3"
+                    >Get Started</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-md-4 ftco-animate fadeInUp ftco-animated"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
+              <div class="block-7">
+                <div class="text-center p-4">
+                  <span class="excerpt d-block">Ultimate</span>
+                  <span class="price"><sup>$</sup> <span class="number">109</span> <sub>/mos</sub></span>
+                  <ul class="pricing-text mb-5">
+                    <li><span class="fa fa-check mr-2"></span>5 Dog Walk</li>
+                    <li><span class="fa fa-check mr-2"></span>3 Vet Visit</li>
+                    <li><span class="fa fa-check mr-2"></span>3 Pet Spa</li>
+                    <li><span class="fa fa-check mr-2"></span>Free Supports</li>
+                  </ul>
+                  <a
+                    href="#"
+                    class="btn btn-success d-block px-2 py-3"
+                    >Get Started</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- pricing end -->
+
+      <!-- Blogs start -->
+      <section id="blogs">
+        <div class="wave">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 1440 320"
+          >
+            <path
+              fill="#a5d227"
+              fill-opacity="1"
+              d="M0,256L1440,32L1440,0L0,0Z"
+            ></path>
+          </svg>
+        </div>
+
+        <div class="container">
+          <div class="row justify-content-center text-center mt-5 mb-5">
+            <div
+              class="col-xl-5 col-lg-8"
+              data-aos="zoom-in"
+              data-aos-duration="1000"
+            >
+              <h3 class="fw-bold">Mollitia ab aliquid delectus</h3>
+              <p>Provident explicabo animi reiciendis corrupti quas ipsa asperiores ex illo, nihil aspernatur harum! Natus repudiandae rerum ducimus, eos placeat excepturi!</p>
+            </div>
+          </div>
+
+          <div class="row row-cols-1 row-cols-md-2 g-4 text-white">
+            <div
+              class="col"
+              data-aos="flip-right"
+              data-aos-duration="1000"
+            >
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4 align-self-center">
+                    <img
+                      src="https://source.unsplash.com/600x800?pc"
+                      class="img-thumbnail rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h4 class="card-title fw-normal">Laudantium porro accusant</h4>
+                      <div class="row justify-content-between pb-1">
+                        <div class="col">
+                          <p class="card-text">
+                            <small class="textpet"><i class="bi bi-calendar2-week"></i> 12 Jan 2023</small>
+                          </p>
+                        </div>
+                        <div class="col">
+                          <p class="card-text text-end">
+                            <small class="textpet"><i class="bi bi-clock"></i> 3 mins ago</small>
+                          </p>
+                        </div>
+                      </div>
+                      <p
+                        class="card-text"
+                        style="text-align: justify"
+                      >
+                        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                      </p>
+                      <p class="card-text btn btn-success"><small class="text-white">Read more</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col"
+              data-aos="flip-left"
+              data-aos-duration="1000"
+            >
+              <div class="card mb-3">
+                <div class="row g-0">
+                  <div class="col-md-4 align-self-center">
+                    <img
+                      src="https://source.unsplash.com/600x800?iphone"
+                      class="img-thumbnail rounded-start"
+                      alt="..."
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h4 class="card-title fw-normal">Tenetur ad assumenda</h4>
+                      <div class="row justify-content-between pb-1">
+                        <div class="col">
+                          <p class="card-text">
+                            <small class="textpet"><i class="bi bi-calendar2-week"></i> 12 Jan 2023</small>
+                          </p>
+                        </div>
+                        <div class="col">
+                          <p class="card-text text-end">
+                            <small class="textpet"><i class="bi bi-clock"></i> 3 mins ago</small>
+                          </p>
+                        </div>
+                      </div>
+                      <p
+                        class="card-text"
+                        style="text-align: justify"
+                      >
+                        This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.
+                      </p>
+                      <p class="card-text btn btn-success"><small class="text-white">Read more</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Blogs end -->
+    </main>
+
+    <!-- footer start -->
+    <footer id="footer">
+      <div class="container text-white mt-5">
+        <div class="row row-cols-1 row-cols-lg-4 g-4">
+          <div class="col-lg-6 text-muted">
+            <h1 class="text-white fw-semibold">GuniQ</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae natus nulla ad porro quaerat, odit nihil officia ut reiciendis asperiores?</p>
+            <p><i class="bi bi-geo-alt-fill"></i> Jl. Buibatu Kompleks Perkantoran PEMDA</p>
+
+            <div class="d-flex">
+              <i class="bi bi-envelope-fill btn btn-outline-light me-2"></i>
+              <i class="bi bi-instagram btn btn-outline-light me-2"></i>
+              <i class="bi bi-linkedin btn btn-outline-light me-2"></i>
+            </div>
+          </div>
+
+          <div class="col-lg-2">
+            <h5 class="text-white pb-2">Menu Tags</h5>
+            <a
+              href="#"
+              class="nav-link pb-2 text-mutan"
+              >Home</a
+            >
+            <a
+              href="#about"
+              class="nav-link pb-2 text-mutan"
+              >About</a
+            >
+            <a
+              href="#services"
+              class="nav-link pb-2 text-mutan"
+              >Services</a
+            >
+            <a
+              href="#pricing"
+              class="nav-link pb-2 text-mutan"
+              >Pricing
+            </a>
+            <a
+              href="#blogs"
+              class="nav-link pb-2 text-mutan"
+              >Blogs
+            </a>
+          </div>
+
+          <div class="col-lg-2">
+            <h5 class="text-white pb-2">Categories</h5>
+            <a
+              href="#"
+              class="nav-link pb-2 text-mutan"
+              >Web Designer</a
+            >
+            <a
+              href="#"
+              class="nav-link pb-2 text-mutan"
+              >UI/UX Designer</a
+            >
+            <a
+              href="#"
+              class="nav-link pb-2 text-mutan"
+              >Graphic Designer</a
+            >
+            <a
+              href="#"
+              class="nav-link pb-2 text-mutan"
+              >Web Development</a
+            >
+          </div>
+
+          <div class="col-lg-2">
+            <h5 class="text-white pb-2">Others</h5>
+            <a
+              href="#"
+              class="nav-link pb-2 text-mutan"
+              >Support</a
+            >
+            <a
+              href="#"
+              class="nav-link pb-2 text-mutan"
+              >Privacy policy</a
+            >
+            <a
+              href="#"
+              class="nav-link pb-2 text-mutan"
+              >Terms of service</a
+            >
+          </div>
+        </div>
+
+        <div class="row justify-content-center text-center pt-4 pb-3">
+          <div class="col">
+            <p class="small mb-0">&copy; Copyrights. All rights reserved. Created by HabisCoding using <span style="color: #7952b3">bootstrap5</span>.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- End -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
